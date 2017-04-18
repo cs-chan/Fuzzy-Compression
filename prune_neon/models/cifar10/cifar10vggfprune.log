@@ -1,0 +1,199 @@
+/usr/bin/python2.7 /home/william/PycharmProjects/MyNeon/cifar10CNN.py
+INFO:root:Training ...
+INFO:callbacks.callbacks:Model:
+Network Layers:
+Sequential
+  Convolution Layer 'Convolution_0': 3 x (32x32) inputs, 96 x (32x32) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_0_bias': size 96 x (32x32)
+  Activation Layer 'Convolution_0_Rectlin': Rectlin
+  Convolution Layer 'Convolution_1': 96 x (32x32) inputs, 96 x (32x32) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_1_bias': size 96 x (32x32)
+  Activation Layer 'Convolution_1_Rectlin': Rectlin
+  Pooling Layer 'Pooling_0': 96 x (32x32) inputs, 96 x (16x16) outputs
+  Dropout Layer 'Dropout_0': 24576 inputs and outputs, keep 70% (caffe_compat False)
+  Convolution Layer 'Convolution_2': 96 x (16x16) inputs, 192 x (16x16) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_2_bias': size 192 x (16x16)
+  Activation Layer 'Convolution_2_Rectlin': Rectlin
+  Convolution Layer 'Convolution_3': 192 x (16x16) inputs, 192 x (16x16) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_3_bias': size 192 x (16x16)
+  Activation Layer 'Convolution_3_Rectlin': Rectlin
+  Pooling Layer 'Pooling_1': 192 x (16x16) inputs, 192 x (8x8) outputs
+  Dropout Layer 'Dropout_1': 12288 inputs and outputs, keep 80% (caffe_compat False)
+  Convolution Layer 'Convolution_4': 192 x (8x8) inputs, 256 x (8x8) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_4_bias': size 256 x (8x8)
+  Activation Layer 'Convolution_4_Rectlin': Rectlin
+  Convolution Layer 'Convolution_5': 256 x (8x8) inputs, 256 x (8x8) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_5_bias': size 256 x (8x8)
+  Activation Layer 'Convolution_5_Rectlin': Rectlin
+  Convolution Layer 'Convolution_6': 256 x (8x8) inputs, 256 x (8x8) outputs, padding 1, stride 1
+  Bias Layer 'Convolution_6_bias': size 256 x (8x8)
+  Activation Layer 'Convolution_6_Rectlin': Rectlin
+  Pooling Layer 'Pooling_2': 256 x (8x8) inputs, 256 x (4x4) outputs
+  Dropout Layer 'Dropout_2': 4096 inputs and outputs, keep 70% (caffe_compat False)
+  Linear Layer 'Linear_0': 4096 inputs, 10 outputs
+  Bias Layer 'Linear_0_bias': size 10
+  Activation Layer 'Linear_0_Softmax': Softmax
+Mask 0: 0.715664
+Mask 1: 0.264769
+Mask 2: 0.414273
+Mask 3: 0.253264
+Mask 4: 0.158158
+Mask 5: 0.077072
+Mask 6: 0.205839
+Mask 7: 0.330859
+Epoch 83  [Train |████████████████████|  391/391  batches, 0.16 cost, 118.26s]
+INFO:callbacks.callbacks:Epoch: 83, Classification error: 10.60%
+Epoch 84  [Train |████████████████████|  391/391  batches, 0.14 cost, 118.51s]
+INFO:callbacks.callbacks:Epoch: 84, Classification error: 11.11%
+Epoch 85  [Train |████████████████████|  390/390  batches, 0.12 cost, 118.13s]
+INFO:callbacks.callbacks:Epoch: 85, Classification error: 10.51%
+Epoch 86  [Train |████████████████████|  391/391  batches, 0.13 cost, 119.32s]
+INFO:callbacks.callbacks:Epoch: 86, Classification error: 11.19%
+Epoch 87  [Train |████████████████████|  391/391  batches, 0.13 cost, 118.04s]
+INFO:callbacks.callbacks:Epoch: 87, Classification error: 11.67%
+Epoch 88  [Train |████████████████████|  390/390  batches, 0.11 cost, 117.16s]
+INFO:callbacks.callbacks:Epoch: 88, Classification error: 10.91%
+Epoch 89  [Train |████████████████████|  391/391  batches, 0.09 cost, 118.35s]
+INFO:callbacks.callbacks:Epoch: 89, Classification error: 10.39%
+Epoch 90  [Train |████████████████████|  390/390  batches, 0.07 cost, 118.48s]
+INFO:callbacks.callbacks:Epoch: 90, Classification error: 10.63%
+Epoch 91  [Train |████████████████████|  391/391  batches, 0.11 cost, 117.63s]
+INFO:callbacks.callbacks:Epoch: 91, Classification error: 10.69%
+Epoch 92  [Train |████████████████████|  391/391  batches, 0.09 cost, 117.56s]
+INFO:callbacks.callbacks:Epoch: 92, Classification error: 11.32%
+Epoch 93  [Train |████████████████████|  390/390  batches, 0.10 cost, 117.28s]
+INFO:callbacks.callbacks:Epoch: 93, Classification error: 10.47%
+Epoch 94  [Train |████████████████████|  391/391  batches, 0.09 cost, 117.66s]
+INFO:callbacks.callbacks:Epoch: 94, Classification error: 10.68%
+Epoch 95  [Train |████████████████████|  391/391  batches, 0.08 cost, 117.62s]
+INFO:callbacks.callbacks:Epoch: 95, Classification error: 11.03%
+Epoch 96  [Train |████████████████████|  390/390  batches, 0.08 cost, 117.56s]
+INFO:callbacks.callbacks:Epoch: 96, Classification error: 11.00%
+Epoch 97  [Train |████████████████████|  391/391  batches, 0.09 cost, 117.98s]
+INFO:callbacks.callbacks:Epoch: 97, Classification error: 10.22%
+Epoch 98  [Train |████████████████████|  390/390  batches, 0.09 cost, 117.53s]
+INFO:callbacks.callbacks:Epoch: 98, Classification error: 10.54%
+Epoch 99  [Train |████████████████████|  391/391  batches, 0.09 cost, 117.74s]
+INFO:callbacks.callbacks:Epoch: 99, Classification error: 10.76%
+Epoch 100 [Train |████████████████████|  391/391  batches, 0.11 cost, 117.85s]
+INFO:callbacks.callbacks:Epoch: 100, Classification error: 11.09%
+Epoch 101 [Train |████████████████████|  390/390  batches, 0.07 cost, 117.82s]
+INFO:callbacks.callbacks:Epoch: 101, Classification error: 10.61%
+Epoch 102 [Train |████████████████████|  391/391  batches, 0.08 cost, 117.35s]
+INFO:callbacks.callbacks:Epoch: 102, Classification error: 10.16%
+Epoch 103 [Train |████████████████████|  391/391  batches, 0.09 cost, 117.80s]
+INFO:callbacks.callbacks:Epoch: 103, Classification error: 10.38%
+Epoch 104 [Train |████████████████████|  390/390  batches, 0.07 cost, 117.00s]
+INFO:callbacks.callbacks:Epoch: 104, Classification error: 10.26%
+Epoch 105 [Train |████████████████████|  391/391  batches, 0.06 cost, 118.01s]
+INFO:callbacks.callbacks:Epoch: 105, Classification error: 10.92%
+Epoch 106 [Train |████████████████████|  390/390  batches, 0.07 cost, 117.18s]
+INFO:callbacks.callbacks:Epoch: 106, Classification error: 10.65%
+Epoch 107 [Train |████████████████████|  391/391  batches, 0.08 cost, 117.56s]
+INFO:callbacks.callbacks:Epoch: 107, Classification error: 11.02%
+Epoch 108 [Train |████████████████████|  391/391  batches, 0.10 cost, 117.57s]
+INFO:callbacks.callbacks:Epoch: 108, Classification error: 10.60%
+Epoch 109 [Train |████████████████████|  390/390  batches, 0.07 cost, 117.27s]
+INFO:callbacks.callbacks:Epoch: 109, Classification error: 10.48%
+Epoch 110 [Train |████████████████████|  391/391  batches, 0.07 cost, 117.59s]
+INFO:callbacks.callbacks:Epoch: 110, Classification error: 10.52%
+Epoch 111 [Train |████████████████████|  391/391  batches, 0.08 cost, 117.77s]
+INFO:callbacks.callbacks:Epoch: 111, Classification error: 11.55%
+Epoch 112 [Train |████████████████████|  390/390  batches, 0.08 cost, 117.50s]
+INFO:callbacks.callbacks:Epoch: 112, Classification error: 10.49%
+INFO:callbacks.callbacks:Recuding learning rate to 0.001000
+Epoch 104 [Train |████████████████████|  391/391  batches, 0.03 cost, 118.74s]
+INFO:callbacks.callbacks:Epoch: 104, Classification error: 9.50%
+Epoch 105 [Train |████████████████████|  390/390  batches, 0.03 cost, 120.43s]
+INFO:callbacks.callbacks:Epoch: 105, Classification error: 9.39%
+Epoch 106 [Train |████████████████████|  391/391  batches, 0.04 cost, 121.08s]
+INFO:callbacks.callbacks:Epoch: 106, Classification error: 9.30%
+Epoch 107 [Train |████████████████████|  391/391  batches, 0.03 cost, 119.02s]
+INFO:callbacks.callbacks:Epoch: 107, Classification error: 9.23%
+Epoch 108 [Train |████████████████████|  390/390  batches, 0.03 cost, 120.22s]
+INFO:callbacks.callbacks:Epoch: 108, Classification error: 9.14%
+Epoch 109 [Train |████████████████████|  391/391  batches, 0.03 cost, 119.86s]
+INFO:callbacks.callbacks:Epoch: 109, Classification error: 9.19%
+Epoch 110 [Train |████████████████████|  391/391  batches, 0.03 cost, 119.17s]
+INFO:callbacks.callbacks:Epoch: 110, Classification error: 9.17%
+Epoch 111 [Train |████████████████████|  390/390  batches, 0.03 cost, 120.05s]
+INFO:callbacks.callbacks:Epoch: 111, Classification error: 9.23%
+Epoch 112 [Train |████████████████████|  391/391  batches, 0.03 cost, 121.23s]
+INFO:callbacks.callbacks:Epoch: 112, Classification error: 9.16%
+Epoch 113 [Train |████████████████████|  390/390  batches, 0.02 cost, 120.91s]
+INFO:callbacks.callbacks:Epoch: 113, Classification error: 9.21%
+Epoch 114 [Train |████████████████████|  391/391  batches, 0.03 cost, 121.53s]
+INFO:callbacks.callbacks:Epoch: 114, Classification error: 9.18%
+Epoch 115 [Train |████████████████████|  391/391  batches, 0.04 cost, 119.72s]
+INFO:callbacks.callbacks:Epoch: 115, Classification error: 9.17%
+Epoch 116 [Train |████████████████████|  390/390  batches, 0.02 cost, 120.06s]
+INFO:callbacks.callbacks:Epoch: 116, Classification error: 9.07%
+Epoch 117 [Train |████████████████████|  391/391  batches, 0.03 cost, 118.55s]
+INFO:callbacks.callbacks:Epoch: 117, Classification error: 9.09%
+Epoch 118 [Train |████████████████████|  391/391  batches, 0.03 cost, 118.98s]
+INFO:callbacks.callbacks:Epoch: 118, Classification error: 9.10%
+Epoch 119 [Train |████████████████████|  390/390  batches, 0.04 cost, 118.68s]
+INFO:callbacks.callbacks:Epoch: 119, Classification error: 9.06%
+Epoch 120 [Train |████████████████████|  391/391  batches, 0.03 cost, 120.89s]
+INFO:callbacks.callbacks:Epoch: 120, Classification error: 9.17%
+Epoch 121 [Train |████████████████████|  390/390  batches, 0.02 cost, 120.37s]
+INFO:callbacks.callbacks:Epoch: 121, Classification error: 9.15%
+Epoch 122 [Train |████████████████████|  391/391  batches, 0.03 cost, 120.29s]
+INFO:callbacks.callbacks:Epoch: 122, Classification error: 9.02%
+Epoch 123 [Train |████████████████████|  391/391  batches, 0.02 cost, 122.15s]
+INFO:callbacks.callbacks:Epoch: 123, Classification error: 9.15%
+Epoch 124 [Train |████████████████████|  390/390  batches, 0.02 cost, 122.89s]
+INFO:callbacks.callbacks:Epoch: 124, Classification error: 9.13%
+Epoch 125 [Train |████████████████████|  391/391  batches, 0.02 cost, 120.61s]
+INFO:callbacks.callbacks:Epoch: 125, Classification error: 9.11%
+Epoch 126 [Train |████████████████████|  391/391  batches, 0.02 cost, 120.07s]
+INFO:callbacks.callbacks:Epoch: 126, Classification error: 9.02%
+Epoch 127 [Train |████████████████████|  390/390  batches, 0.03 cost, 119.82s]
+INFO:callbacks.callbacks:Epoch: 127, Classification error: 9.07%
+Epoch 128 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.62s]
+INFO:callbacks.callbacks:Epoch: 128, Classification error: 8.95%
+Epoch 129 [Train |████████████████████|  390/390  batches, 0.03 cost, 119.11s]
+INFO:callbacks.callbacks:Epoch: 129, Classification error: 9.13%
+Epoch 130 [Train |████████████████████|  391/391  batches, 0.03 cost, 118.87s]
+INFO:callbacks.callbacks:Epoch: 130, Classification error: 9.21%
+Epoch 131 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.68s]
+INFO:callbacks.callbacks:Epoch: 131, Classification error: 9.13%
+Epoch 132 [Train |████████████████████|  390/390  batches, 0.03 cost, 118.06s]
+INFO:callbacks.callbacks:Epoch: 132, Classification error: 9.12%
+Epoch 133 [Train |████████████████████|  391/391  batches, 0.02 cost, 119.88s]
+INFO:callbacks.callbacks:Epoch: 133, Classification error: 9.16%
+Epoch 134 [Train |████████████████████|  391/391  batches, 0.02 cost, 119.26s]
+INFO:callbacks.callbacks:Epoch: 134, Classification error: 9.10%
+Epoch 135 [Train |████████████████████|  390/390  batches, 0.02 cost, 118.73s]
+INFO:callbacks.callbacks:Epoch: 135, Classification error: 9.09%
+Epoch 136 [Train |████████████████████|  391/391  batches, 0.01 cost, 119.84s]
+INFO:callbacks.callbacks:Epoch: 136, Classification error: 9.08%
+Epoch 137 [Train |████████████████████|  390/390  batches, 0.02 cost, 118.70s]
+INFO:callbacks.callbacks:Epoch: 137, Classification error: 9.20%
+Epoch 138 [Train |████████████████████|  391/391  batches, 0.02 cost, 119.38s]
+INFO:callbacks.callbacks:Epoch: 138, Classification error: 9.28%
+INFO:callbacks.callbacks:Recuding learning rate to 0.000100
+Epoch 130 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.52s]
+INFO:callbacks.callbacks:Epoch: 130, Classification error: 8.97%
+Epoch 131 [Train |████████████████████|  390/390  batches, 0.02 cost, 118.27s]
+INFO:callbacks.callbacks:Epoch: 131, Classification error: 8.97%
+Epoch 132 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.67s]
+INFO:callbacks.callbacks:Epoch: 132, Classification error: 8.96%
+Epoch 133 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.14s]
+INFO:callbacks.callbacks:Epoch: 133, Classification error: 8.97%
+Epoch 134 [Train |████████████████████|  390/390  batches, 0.02 cost, 117.27s]
+INFO:callbacks.callbacks:Epoch: 134, Classification error: 8.98%
+Epoch 135 [Train |████████████████████|  391/391  batches, 0.02 cost, 120.15s]
+INFO:callbacks.callbacks:Epoch: 135, Classification error: 9.00%
+Epoch 136 [Train |████████████████████|  390/390  batches, 0.02 cost, 118.58s]
+INFO:callbacks.callbacks:Epoch: 136, Classification error: 9.00%
+Epoch 137 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.51s]
+INFO:callbacks.callbacks:Epoch: 137, Classification error: 8.99%
+Epoch 138 [Train |████████████████████|  391/391  batches, 0.02 cost, 118.87s]
+INFO:callbacks.callbacks:Epoch: 138, Classification error: 8.98%
+Epoch 139 [Train |████████████████████|  390/390  batches, 0.03 cost, 118.33s]
+INFO:callbacks.callbacks:Epoch: 139, Classification error: 8.97%
+INFO:callbacks.callbacks:Best result at epoch 128: 8.95%
+Accuracy = 91.05%
+
+Process finished with exit code 0
