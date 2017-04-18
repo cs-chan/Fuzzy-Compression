@@ -52,7 +52,7 @@ path/to/files/models/alexnet_finetune_style_fp/test_caffenet.sh
 
 ## ImageNet dataset:
 * We are rushing for another journal, hence do not have time to re-run the experiment for ImageNet. Users may try to train their own pruned model for ImageNet with the provided codes.
-** Note that different model requires different FQS settings to maximize the performance. 
+* Note that different model requires different FQS settings to maximize the performance. 
 
 To prune weights:
 ```
