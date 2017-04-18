@@ -1,0 +1,16 @@
+net: "models/alexnet_imagenet/train_val.prototxt"
+test_iter: 500
+#test_interval: 9375
+test_interval: 4687
+base_lr: 0.001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 28800
+stepvalue: 57000
+display: 100
+max_iter: 100000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 30000
+snapshot_prefix: "models/alexnet_imagenet/caffe_alexnet_fptrain"
+solver_mode: GPU
