@@ -13,7 +13,7 @@ Note that we ran the codes in PyCharm. Hence, users may need to resolve the path
 - To train from scratch, run the file: mnist_cnn.py
 - To prune and re-train, run the file: mnist_cnn_fp.py
 
-For CIFAR-10:
+## CIFAR-10:
 - To train from scratch: cifar10CNN
 - To prune and re-train: cifar10CNNfp
 
