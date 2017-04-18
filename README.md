@@ -15,13 +15,14 @@ Please cite this paper if you use this code as part of your published work.
 ## Description
 
 This repository requires CAFFE and/or Nervana Systems Neon to be installed.
-
-To install Nervana System Neon, please visit: https://github.com/NervanaSystems/neon
-
-To install CAFFE library, users have to contact the authors of the following paper to get the modified CAFFE:
+- To install Nervana System Neon, please visit: https://github.com/NervanaSystems/neon
+- To install CAFFE library, users have to contact the authors of the following paper to get the modified CAFFE:
 
 Han, S., Pool, J., Tran, J., & Dally, W. (2015). Learning both weights and connections for efficient neural network. In Advances in Neural Information Processing Systems (pp. 1135-1143).
 
+```
+Datasets
+```
 Codes for Wikiart dataset are written in CAFFE.
 This repository does not include the Wikiart dataset used. 
 Credit is given to the authors of the following paper for introducing the Wikiart dataset:
@@ -29,7 +30,7 @@ Credit is given to the authors of the following paper for introducing the Wikiar
 Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings: 
 Learning The Right Metric on The Right Feature. arXiv preprint arXiv:1505.00855.
 
-The dataset was not split into training and validation sets.
+The dataset was not split into training and validation sets. \n
 Users may access the split Wikiart dataset in the following website: http://www.cs-chan.com/publication.html
 Note that the training and validation split in this website is not the same as the one used in the paper (we lost the original split due to hard disk failure). 
 We do plan to update the codes to synchronize with the released split Wikiart dataset. 
@@ -42,7 +43,11 @@ ImageNet (codes written in CAFFE): http://image-net.org/challenges/LSVRC/2012/in
 For more details, please read the readme files in the subdirectories.
 We may release codes written in Tensorflow in the future. 
 
+## Feedback
 Users may contact us at either of the following email for any question regarding our paper. 
 
 Wei Ren, Tan: wrtan.edu at gmail.com
 Chee Seng, Chan: cs.chan at um.edu.my 
+
+## License
+BSD-3, see `LICENSE` file for details.
