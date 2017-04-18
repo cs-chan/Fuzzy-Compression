@@ -8,12 +8,12 @@ Important notes:
 Meanwhile, if older version Neon is installed, users may run the following files.
 Note that we ran the codes in PyCharm. Hence, users may need to resolve the path error in the code.
 
-For MNIST:
+## MNIST:
 
-To train MNIST from scratch, run the file: mnist_cnn.py
-To prune and re-train, run the file: mnist_cnn_fp.py
+- To train from scratch, run the file: mnist_cnn.py
+- To prune and re-train, run the file: mnist_cnn_fp.py
 
 For CIFAR-10:
-File for training from scratch: cifar10CNN
-File for re-training from the pruned model: cifar10CNNfp
+- To train from scratch: cifar10CNN
+- To prune and re-train: cifar10CNNfp
 
