@@ -3,7 +3,6 @@ Important notes:
 2. Since then, many updates were released and the data structures were changed, e.g. dataloader is changed to Aeon, file structure for the saved model is different.
 3. Hence, many errors will be encountered if these codes are used without proper modifications using the latest Neon version.
 4. We do not have any intention to update the codes in Neon because we have decided to use Tensorflow instead for future works. 
-5. New codes may be released in future using Tensorflow. 
 
 Meanwhile, if older version Neon is installed, users may run the following files.
 Note that we ran the codes in PyCharm. Hence, users may need to resolve the path error in the code.
