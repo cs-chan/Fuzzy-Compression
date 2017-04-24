@@ -22,16 +22,13 @@ Han, S., Pool, J., Tran, J., & Dally, W. (2015). Learning both weights and conne
 
 ## Datasets
 Codes for Wikiart dataset are written in CAFFE.
-This repository does not include the Wikiart dataset used. 
+This repository does not include the original Wikiart dataset used. 
 Credit is given to the authors of the following paper for introducing the Wikiart dataset:
 
 Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings: 
 Learning The Right Metric on The Right Feature. arXiv preprint arXiv:1505.00855.
 
-The dataset was not split into training and validation sets.
-Users may access the split Wikiart dataset in the following website: http://web.fsktm.um.edu.my/~cschan/ or http://www.cs-chan.com/.
-Note that the training and validation split in this website is not the same as the one used in the paper (we lost the original split due to hard disk failure). 
-We do plan to update the codes to synchronize with the released split Wikiart dataset. 
+In order to replicate our work or have a fair comparison to our work, users may access the "new" Wikiart dataset (It was splitted into training and validation sets) in the following website: http://web.fsktm.um.edu.my/~cschan/ or http://www.cs-chan.com/.
 
 For the rest of the datasets, please visit:
 - MNIST (codes written in Neon): http://yann.lecun.com/exdb/mnist/
