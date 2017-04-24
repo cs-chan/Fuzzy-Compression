@@ -39,10 +39,8 @@ For more details, please read the readme files in the subdirectories.
 We may release codes written in Tensorflow in the future. 
 
 ## Feedback
-Users may contact us at either of the following email for any question regarding our paper. 
-
-Wei Ren, Tan: wrtan.edu at gmail.com
-Chee Seng, Chan: cs.chan at um.edu.my 
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
+`wrtan.edu at gmail.com`or `cs.chan at um.edu.my`.
 
 ## License
 BSD-3, see `LICENSE` file for details.
