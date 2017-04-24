@@ -8,7 +8,7 @@ This repository contains code and trained models for the paper:
 
 Tan, W. R., Chan, C. S., Aguirre, H. E., & Tanaka, K. (2017). 
 Fuzzy Quantitative Deep Compression Network. 
-Neurocomputing, 2017.
+Neurocomputing, Accepted.
 
 Please cite this paper if you use this code as part of your published work. 
 
