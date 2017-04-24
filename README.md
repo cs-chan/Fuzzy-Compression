@@ -28,7 +28,7 @@ Credit is given to the authors of the following paper for introducing the Wikiar
 Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings: 
 Learning The Right Metric on The Right Feature. arXiv preprint arXiv:1505.00855.
 
-In order to replicate our work or have a fair comparison to our work, users may access the "new" Wikiart dataset (It was splitted into training and validation sets) in the following website: http://web.fsktm.um.edu.my/~cschan/ or http://www.cs-chan.com/.
+In order to replicate our work or have a fair comparison to our work, users may access the "new" Wikiart dataset (It was splitted into training and validation sets) in the following link: https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset.
 
 For the rest of the datasets, please visit:
 - MNIST (codes written in Neon): http://yann.lecun.com/exdb/mnist/
