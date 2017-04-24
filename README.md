@@ -29,7 +29,7 @@ Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintin
 Learning The Right Metric on The Right Feature. arXiv preprint arXiv:1505.00855.
 
 The dataset was not split into training and validation sets.
-Users may access the split Wikiart dataset in the following website: http://www.cs-chan.com/publication.html.
+Users may access the split Wikiart dataset in the following website: http://web.fsktm.um.edu.my/~cschan/ or http://www.cs-chan.com/.
 Note that the training and validation split in this website is not the same as the one used in the paper (we lost the original split due to hard disk failure). 
 We do plan to update the codes to synchronize with the released split Wikiart dataset. 
 
