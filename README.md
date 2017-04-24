@@ -8,7 +8,7 @@ This repository contains code and trained models for the paper:
 
 Tan, W. R., Chan, C. S., Aguirre, H. E., & Tanaka, K. (2017). 
 Fuzzy Quantitative Deep Compression Network. 
-Neurocomputing, Accepted.
+Neurocomputing, accepted.
 
 Please cite this paper if you use this code as part of your published work. 
 
@@ -28,7 +28,7 @@ Credit is given to the authors of the following paper for introducing the Wikiar
 Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings: 
 Learning The Right Metric on The Right Feature. arXiv preprint arXiv:1505.00855.
 
-In order to replicate our work or to have a fair comparison to our work, users may access the "new" Wikiart dataset (It was splitted into training and validation sets) in the following link: https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset.
+In order to replicate or to have a fair comparison to our work, users may access the "new" Wikiart dataset (It was splitted into training and validation sets) in the following link: https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset.
 
 For the rest of the datasets, please visit:
 - MNIST (codes written in Neon): http://yann.lecun.com/exdb/mnist/
