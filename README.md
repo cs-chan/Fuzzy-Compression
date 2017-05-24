@@ -1,4 +1,4 @@
-# Fuzzy Quantitative Deep Compression Network [PDF](http://www.sciencedirect.com/science/article/pii/S0925231217306938)
+# Fuzzy Quantitative Deep Compression Network
 
 Released on April, 2017
 
