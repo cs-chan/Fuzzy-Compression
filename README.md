@@ -1,6 +1,16 @@
-# Neurocomputing 2017- Fuzzy Quantitative Deep Compression Network
+# Fuzzy Quantitative Deep Compression Network [PDF](http://www.sciencedirect.com/science/article/pii/S0925231217306938)
 
 Released on April, 2017
+
+## Description
+
+
+
+This repository requires CAFFE and/or Nervana Systems Neon to be installed.
+- To install Nervana System Neon, please visit: https://github.com/NervanaSystems/neon
+- To install CAFFE library, users have to contact the authors of the following paper to get the modified CAFFE:
+
+Han, S., Pool, J., Tran, J., & Dally, W. (2015). Learning both weights and connections for efficient neural network. In Advances in Neural Information Processing Systems (pp. 1135-1143).
 
 ## Citation
 
@@ -11,20 +21,14 @@ This repository contains code and trained models for the paper:
   title={Fuzzy Qualitative Deep Compression Network},
   author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hern{\'a}n E and Tanaka, Kiyoshi},
   journal={Neurocomputing},
+  volume = {251},
+  page = {1-15},
   year={2017},
   publisher={Elsevier}
 }
 ```
 
 Please cite this paper if you use this code as part of your published work. 
-
-## Description
-
-This repository requires CAFFE and/or Nervana Systems Neon to be installed.
-- To install Nervana System Neon, please visit: https://github.com/NervanaSystems/neon
-- To install CAFFE library, users have to contact the authors of the following paper to get the modified CAFFE:
-
-Han, S., Pool, J., Tran, J., & Dally, W. (2015). Learning both weights and connections for efficient neural network. In Advances in Neural Information Processing Systems (pp. 1135-1143).
 
 ## Datasets
 Codes for Wikiart dataset are written in CAFFE.
