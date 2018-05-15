@@ -5,6 +5,7 @@ Released on April, 2017
 ## Description
 This repository contains code and trained models of our Neurocomputing work with titled [Fuzzy Quantitative Deep Compression Network](http://www.sciencedirect.com/science/article/pii/S0925231217306938).
 
+## Dependency
 This repository requires CAFFE and/or Nervana Systems Neon to be installed.
 - To install Nervana System Neon, please visit: https://github.com/NervanaSystems/neon
 - To install CAFFE library, users have to contact the authors of the following paper to get the modified CAFFE:
